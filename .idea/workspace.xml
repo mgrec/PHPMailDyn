@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5b8ef4de-7a81-4152-8270-3289d8251f51" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="PHPMailDyn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,31 +34,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PHPMailDyn.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PHPMailDyn.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PHPMailDyn/PHPMailDyn.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-409">
+            <state relative-caret-position="510">
               <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="378">
-                <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
-                <folding>
-                  <marker date="1499863469000" expanded="true" signature="185:318" placeholder="..." />
-                  <marker date="1499863469000" expanded="true" signature="192:255" placeholder="..." />
-                  <marker date="1499863469000" expanded="true" signature="262:310" placeholder="..." />
-                  <marker date="1499863469000" expanded="true" signature="263:310" placeholder="..." />
-                  <marker date="1499863469000" expanded="true" signature="440:455" placeholder="[...]" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -247,12 +227,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499851525195</updated>
       <workItem from="1499851526763" duration="1726000" />
-      <workItem from="1499853905539" duration="3165000" />
+      <workItem from="1499853905539" duration="3255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4891000" />
+    <option name="totallyTimeSpent" value="4981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -319,14 +299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PHPMailDyn/PHPMailDyn.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-409">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -341,6 +313,14 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPMailDyn/PHPMailDyn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
         </state>
       </provider>
     </entry>
