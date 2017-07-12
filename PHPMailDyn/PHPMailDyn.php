@@ -12,18 +12,36 @@ namespace PHPMailDyn;
 class PHPMailDyn
 {
 
-    public function dynamise($file, array $tab_var)
+    public function dynamise($file, $tab_var)
     {
         // get template file;
         $content = file_get_contents('template/' . $file);
 
+        // template error
+        if ($content == false){
+            return 'Error : template not found.';
+        }
+
+        // array error
+        if (gettype($tab_var) != 'array'){
+            return 'Error : var must be pass in a array.';
+        }
+
+        // var not found error
+        foreach ($tab_var as $keyVal => $value){
+            $pos = strpos($content, $keyVal);
+            if ($pos == false){
+                return 'Error : var '. $keyVal .' not found.';
+            }
+        }
+
         // remplace var in template
         foreach ($tab_var as $key => $simple) {
-            $return = str_replace($key, $simple, $content);
+            $content = str_replace($key, $simple, $content);
         }
 
         // return finish email
-        return $return;
+        return $content;
 
     }
 
@@ -36,7 +54,7 @@ class PHPMailDyn
         
         // create and send email
         mail($dest, $object, $content, $header);
-        
+
         return true;
     }
 

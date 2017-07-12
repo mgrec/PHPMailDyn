@@ -1,15 +1,19 @@
 <?php
 namespace PHPMailDyn;
+
 include 'PHPMailDyn/PHPMailDyn.php';
 
 
 $class = new PHPMailDyn();
 
-$tab = ['#name' => 'Maxime'];
-
+$tab = [
+    '#name' => 'John',
+    '#mail' => 'john.doe@gmail.com',
+    '#text' => 'Ceci est un text',
+    '#link' => 'http://test-de-lien.com'
+];
 $mail = $class->dynamise('mail.html', $tab);
 
-$send = $class->send('maxime.grec@gmail.com', 'Test', $mail, 'Maxime GREC', 'test@pphpmaildyn.com');
+echo $mail;
 
-echo $send;
 ?>
