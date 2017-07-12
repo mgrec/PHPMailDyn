@@ -47,6 +47,32 @@ class PHPMailDyn
 
     public function send($dest, $object, $content, $name, $sender)
     {
+
+        // display error for : dest
+        if ($dest == false){
+            return 'Error : Recipient is empty';
+        }
+
+        // display error for : Object
+        if ($object == false){
+            return 'Error : Object is empty';
+        }
+
+        // display error for : Content
+        if ($content == false){
+            return 'Error : Content is empty';
+        }
+
+        // display error for : Name
+        if ($name == false){
+            return 'Error : Name is empty';
+        }
+
+        // display error for : Sender
+        if ($sender == false){
+            return 'Error : Sender is empty';
+        }
+        
         // create header
         $header = "From: $name <$sender>\r\n";
         $header .= 'MIME-Version: 1.0' . "\r\n";
