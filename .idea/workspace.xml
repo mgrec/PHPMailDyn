@@ -59,14 +59,14 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <first_editor relative-caret-position="-477">
+                <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
                 <folding>
-                  <marker date="1499863839000" expanded="true" signature="183:316" placeholder="..." />
-                  <marker date="1499863839000" expanded="true" signature="190:253" placeholder="..." />
-                  <marker date="1499863839000" expanded="true" signature="260:308" placeholder="..." />
-                  <marker date="1499863839000" expanded="true" signature="261:308" placeholder="..." />
-                  <marker date="1499863839000" expanded="true" signature="438:453" placeholder="[...]" />
+                  <marker date="1499864174000" expanded="true" signature="181:314" placeholder="..." />
+                  <marker date="1499864174000" expanded="true" signature="188:251" placeholder="..." />
+                  <marker date="1499864174000" expanded="true" signature="258:306" placeholder="..." />
+                  <marker date="1499864174000" expanded="true" signature="259:306" placeholder="..." />
+                  <marker date="1499864174000" expanded="true" signature="436:451" placeholder="[...]" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -247,12 +247,12 @@
       <option name="presentableId" value="Default" />
       <updated>1499851525195</updated>
       <workItem from="1499851526763" duration="1726000" />
-      <workItem from="1499853905539" duration="3357000" />
+      <workItem from="1499853905539" duration="3501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5083000" />
+    <option name="totallyTimeSpent" value="5227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -330,14 +330,14 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <first_editor relative-caret-position="-477">
+            <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
             <folding>
-              <marker date="1499863839000" expanded="true" signature="183:316" placeholder="..." />
-              <marker date="1499863839000" expanded="true" signature="190:253" placeholder="..." />
-              <marker date="1499863839000" expanded="true" signature="260:308" placeholder="..." />
-              <marker date="1499863839000" expanded="true" signature="261:308" placeholder="..." />
-              <marker date="1499863839000" expanded="true" signature="438:453" placeholder="[...]" />
+              <marker date="1499864174000" expanded="true" signature="181:314" placeholder="..." />
+              <marker date="1499864174000" expanded="true" signature="188:251" placeholder="..." />
+              <marker date="1499864174000" expanded="true" signature="258:306" placeholder="..." />
+              <marker date="1499864174000" expanded="true" signature="259:306" placeholder="..." />
+              <marker date="1499864174000" expanded="true" signature="436:451" placeholder="[...]" />
             </folding>
           </first_editor>
           <second_editor />

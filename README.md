@@ -46,7 +46,7 @@ Call function.
 Exemple :
 
  ```php
- $mail = $class->dynamise('mail.html', $tab);
+ $mail = $class->dynamise('mail.html', $tab_var);
  ```
 
  ### Function send()
