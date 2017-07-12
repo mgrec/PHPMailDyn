@@ -37,7 +37,13 @@ $tab = [
  ];
  ```
 
- Call function.
+Call function.
+
+```php
+ dynamise($file, $tab_var)
+ ```
+
+Exemple :
 
  ```php
  $mail = $class->dynamise('mail.html', $tab);
@@ -46,6 +52,14 @@ $tab = [
  ### Function send()
 
  Call function.
+
+ send($dest, $object, $content, $name, $sender)
+
+ ```php
+ send($dest, $object, $content, $name, $sender)
+ ```
+
+ Exemple :
 
  ```php
  $send = $class->send('maxime.grec@gmail.com', 'Test', $mail, 'John DOE', '')
