@@ -6,7 +6,7 @@ PHPMailDyn easy way to dynamise your HTML email
 
 ### Create a mail template
 
-Create your html template and place #var.
+Create your html template and use #var.
 
 ```html
 <!doctype html>
