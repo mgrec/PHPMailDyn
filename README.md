@@ -27,13 +27,13 @@ Put your template in folder "template/".
 
 ### Function dynamise()
 
-Declare an array with your var.
+Declare an array with your var, use #.
 
 ```php
 $tab = [
-     '#name' => 'John',
-     '#lastname' => 'doe',
-     '#mail' => 'john.doe@gmail.com'
+     'name' => 'John',
+     'lastname' => 'doe',
+     'mail' => 'john.doe@gmail.com'
  ];
  ```
 

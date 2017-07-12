@@ -37,7 +37,7 @@ class PHPMailDyn
 
         // remplace var in template
         foreach ($tab_var as $key => $simple) {
-            $content = str_replace($key, $simple, $content);
+            $content = str_replace('#'.$key, $simple, $content);
         }
 
         // return finish email
