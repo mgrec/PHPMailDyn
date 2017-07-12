@@ -27,7 +27,7 @@ Put your template in folder "template/".
 
 ### Function dynamise()
 
-Declare an array with your var, use #.
+Declare an array with your var.
 
 ```php
 $tab = [
