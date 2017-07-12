@@ -53,8 +53,6 @@ Exemple :
 
  Call function.
 
- send($dest, $object, $content, $name, $sender)
-
  ```php
  send($dest, $object, $content, $name, $sender)
  ```
