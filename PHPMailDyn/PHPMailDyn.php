@@ -12,6 +12,7 @@ namespace PHPMailDyn;
 class PHPMailDyn
 {
 
+    //@TODO : ERROR
     public function dynamise($file, $tab_var)
     {
         // get template file;
